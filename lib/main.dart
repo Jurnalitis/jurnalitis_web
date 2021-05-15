@@ -20,7 +20,7 @@ class Jurnalitis extends StatelessWidget {
             ResponsiveBreakpoint.autoScale(800, name: TABLET),
             ResponsiveBreakpoint.resize(1000, name: DESKTOP),
           ],
-          background: Container(color: Color(0xFFF5F5F5))),
+          background: Container(color: Colors.white)),
       title: 'Jurnalitis',
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
