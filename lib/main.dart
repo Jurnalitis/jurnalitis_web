@@ -12,6 +12,8 @@ class Jurnalitis extends StatelessWidget {
       title: 'Jurnalitis',
       theme: ThemeData(
         primarySwatch: Colors.blueGrey,
+        hoverColor: Colors.transparent,
+        highlightColor: Colors.transparent,
       ),
       home: HomePageView(),
     );
